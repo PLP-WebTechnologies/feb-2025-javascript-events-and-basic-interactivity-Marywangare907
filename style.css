@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #904caf;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #6c45a0;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Hover Text */
+  #hoverText {
+    padding: 20px;
+    background-color: #e7e7e7;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Image Gallery */
+  #imageGallery {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  #imageGallery img {
+    width: 30%;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  #imageGallery img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Tabs */
+  #tabs {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tabButton {
+    padding: 10px;
+    margin: 5px;
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .tabButton:hover {
+    background-color: #dddddd;
+  }
+  
+  .tabContent {
+    display: none;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  /* Form Feedback */
+  #formFeedback {
+    margin-top: 10px;
+    color: rgb(94, 255, 0);
+  }
+  
